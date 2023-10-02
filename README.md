@@ -26,17 +26,19 @@ Example Playbook
 ----------------
 
 Here's an example playbook that demonstrates how to use this role:
-
-- name: Install Packages
-  hosts: your_target_hosts
-  become: yes  # If privilege escalation is required (sudo)
-  roles:
-    - name: Download Packages
-      vars:
-        packages_to_install:
-          - package1
-          - package2
-      role: download-packages
+---
+- name: Install nessary packages on servers
+  hosts: all
+  become: yes
+  roles: 
+    - install_nessary_packages
+  vars:
+    packages_to_install:
+      - nmap
+      - traceroute
+      - vim
+      - curl
+      - wget
 
 In this example, replace your_target_hosts with the appropriate host group or host(s) where you want to install the specified packages. You can customize the packages_to_install variable with the packages you want to install on your target hosts.
 
