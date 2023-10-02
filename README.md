@@ -15,7 +15,12 @@ Role Variables
 
 This role uses the following variables, which can be customized in your playbook:
 
-    packages_to_install: A list of packages to be installed. Default value: [].
+    packages_to_install: 
+      - nmap
+      - traceroute
+      - vim
+      - curl
+      - wget.
 
 Dependencies
 ------------
