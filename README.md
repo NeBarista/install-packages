@@ -40,7 +40,7 @@ Here's an example playbook that demonstrates how to use this role:
       - curl
       - wget
 
-In this example, replace your_target_hosts with the appropriate host group or host(s) where you want to install the specified packages. You can customize the packages_to_install variable with the packages you want to install on your target hosts.
+
 
 License
 -------
