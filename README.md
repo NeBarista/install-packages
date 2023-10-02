@@ -26,6 +26,8 @@ Example Playbook
 ----------------
 
 Here's an example playbook that demonstrates how to use this role:
+
+```
 ---
 - name: Install nessary packages on servers
   hosts: all
@@ -40,7 +42,7 @@ Here's an example playbook that demonstrates how to use this role:
       - curl
       - wget
 
-
+```
 
 License
 -------
