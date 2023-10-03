@@ -1,6 +1,7 @@
 galaxy_info:
   author: Sergei
-  description: install nessary packages
+  description: This Ansible role description indicates that the role is responsible for installing essential packages, including nmap, traceroute, vim, curl, and wget.
+               It specifies the author, license, minimum Ansible version required, and the tasks to be performed to install these packages on target hosts.
   company: your company (optional)
 
   # If the issue tracker for your role is not on github, uncomment the
